@@ -1,3 +1,6 @@
+using BookApiMocker.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace BookApiMocker;
 
 public class Program
@@ -5,6 +8,9 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        
+        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+        builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 0))));
 
         // Add services to the container.
 

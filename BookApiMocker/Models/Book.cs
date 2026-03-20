@@ -6,7 +6,7 @@ public class Book
     public string? Title { get; set; }
     public string? Author { get; set; }
     public string? ISBN { get; set; }
-    public decimal Price { get; set; }
+    public int Price { get; set; }
     public int PublishedYear { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.Now;
 }
