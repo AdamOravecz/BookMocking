@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookApiMocker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bb7c3701eecaa372239bdc7db514972e95d5fca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b651368ea4b3a66c7072f3797ce734539c85745")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookApiMocker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookApiMocker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
